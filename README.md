@@ -1,6 +1,9 @@
-The program in markov.py will generate a sentence from an input file.
+The program in `markov.py` is a markov text generator and will generate a sentence from an input file.
 
-For example the `news.txt` file generated this sentence:
+For example:
+``` python markov.py --filename news.txt```
+
+Could generate:
 
 ```Delivered senator will be known mr shorten said mr abbott out.```
 

@@ -19,9 +19,10 @@ class Node:
         output = ""
         for node in self.neighbours:
             output += self.contents + " -" + str(
-                float(self.neighbours[node])/self.total) + "-> " + node + "\n"
+                float(self.neighbours[node]) / self.total) + "-> " + node + "\n"
         return output
 
+    # jump forward one step
     def next(self):
         urn = random.uniform(0, 1)
         total = 0
